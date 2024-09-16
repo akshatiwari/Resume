@@ -1,0 +1,92 @@
+#iitg {
+    color: #e63946;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+#name {
+    background: linear-gradient(to right, #f72585, #b5179e,#7209b7, #3f37c9, #4361ee, #4895ef, #4cc9f0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1d3557;
+    color: #a8dadc;
+}
+
+.container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer {
+    background-color: #f1faee;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #457b9d;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+
+    a {
+        text-decoration: none;
+        color: #457b9d;
+        padding: 20px;
+    }
+}
+
+.footer-links a:hover {
+    background: linear-gradient(to right, #f72585, #b5179e,#7209b7, #3f37c9, #4361ee, #4895ef, #4cc9f0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.container #resume-button {
+    background-color: #f1faee;
+    color: #457b9d;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+
+.container #resume-button:hover {
+    background-color: #a8dadc;
+    color: #1d3557;
+    border: 1px solid #1d3557;
+    transition: ease-in-out 0.5s;
+}
+
+#heart {
+    background: linear-gradient(to right, #f72585, #b5179e,#7209b7, #3f37c9, #4361ee, #4895ef, #4cc9f0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
